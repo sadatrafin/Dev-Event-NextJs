@@ -13,11 +13,11 @@ const page = () => {
       </p>
       <ExploreBtn />
 
-      <div className="mt-20 space-y-7">
+      <div className="mt-32 space-y-10 scroll-mt-20" id="events">
         <h3>Featured Events</h3>
         <ul  className="events">
           {events.map((event) => (
-            <li key={event.slug}  className="list-none">
+            <li key={event.slug} className="list-none hover:-translate-y-1 transition-transform duration-300">
               <EventCard {...event} />
             </li>
           ))}
