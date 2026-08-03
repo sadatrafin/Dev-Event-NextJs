@@ -22,5 +22,4 @@ const ExploreBtn = () => {
         </div>
     )
 }
-
 export default ExploreBtn
