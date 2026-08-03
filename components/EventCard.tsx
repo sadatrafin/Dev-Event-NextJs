@@ -35,5 +35,4 @@ const EventCard = ({ title, image, slug, location, date, time }: Props) => {
         </Link>
     )
 }
-
 export default EventCard
